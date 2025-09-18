@@ -1,4 +1,3 @@
-import Navigation from "@/components/navigation"
 import ProductSection from "@/components/product-section"
 import Footer from "@/components/footer"
 
@@ -16,8 +15,6 @@ const productData = {
 export default function OsvetoveHlasicePage() {
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
-
       <ProductSection
         id="osvetove-hlasice"
         title={productData.title}

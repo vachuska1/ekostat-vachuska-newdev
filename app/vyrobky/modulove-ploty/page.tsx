@@ -1,4 +1,3 @@
-import Navigation from "@/components/navigation"
 import ProductSection from "@/components/product-section"
 import Footer from "@/components/footer"
 
@@ -18,8 +17,6 @@ const productData = {
 export default function ModulovePlotyPage() {
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
-
       <ProductSection
         id="modulove-ploty"
         title={productData.title}

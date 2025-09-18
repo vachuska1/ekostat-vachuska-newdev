@@ -1,4 +1,3 @@
-import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
 import ImageGallery from "@/components/image-gallery"
 
@@ -7,8 +6,6 @@ export default function NakladaniSOdpadyPage() {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
-
       <section className="bg-primary text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
