@@ -40,7 +40,7 @@ const ProductSection = ({ id, title, content, images }: ProductSectionProps) => 
             {content.text1 && <p className="content-text mb-6">{content.text1}</p>}
 
             {content.nadpis2 && <h3 className="text-2xl font-semibold text-gray-800 mb-4">{content.nadpis2}</h3>}
-            {content.text2 && <p className="content-text mb-6">{content.text2}</p>}
+            {content.text2 && <div className="content-text mb-6" dangerouslySetInnerHTML={{ __html: content.text2 }} />}
 
             {content.nadpis3 && <h3 className="text-2xl font-semibold text-gray-800 mb-4">{content.nadpis3}</h3>}
             {content.text3 && <div className="content-text mb-6" dangerouslySetInnerHTML={{ __html: content.text3 }} />}

@@ -11,7 +11,7 @@ const productData = {
     text3:
       'Veškeré podrobnosti najdete na: <a href="https://www.recyclesound.info/" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-primary-dark underline">Recyclesound.info</a>',
   },
-  images: ["/smart-waste-containers.jpg", "/iot-waste-management.jpg", "/digital-waste-monitoring.jpg"],
+  images: ["/smart1.png", "/smart2.png", "/sklokont.png"],
 }
 
 export default function ChytreKontejneryPage() {

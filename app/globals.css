@@ -137,7 +137,7 @@ body {
 }
 
 .content-section {
-  @apply bg-white text-gray-700;
+  @apply bg-white text-gray-900;
 }
 
 .content-text {

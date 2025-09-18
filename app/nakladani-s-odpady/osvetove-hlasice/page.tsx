@@ -6,8 +6,7 @@ const productData = {
   content: {
     text1:
       "Moderní osvěta s umístěním designových hlásičů na veřejné prostranství, skrytě i do kontejnerů na tříděný odpad. Hlásiče jsou nástrojem pro operativní komunikaci informací, instrukcí a vzdělávání. Hlásiče je možné využívat v různých odvětvích, od veřejných prostor a institucí, školy, sportoviště, nemocnice až po průmyslové provozy s cílem vzdělávat, navigovat nebo instruovat.",
-    text2:
-      'Veškeré podrobnosti najdete na: <a href="https://www.recyclesound.info/" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-primary-dark underline">Recyclesound.info</a>',
+    text2: 'Veškeré podrobnosti najdete na: <a href="https://www.recyclesound.info/" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-primary-dark underline">Recyclesound.info</a>',
   },
   images: ["/Hlasic1.png", "/Hlasic3.png"],
 }
