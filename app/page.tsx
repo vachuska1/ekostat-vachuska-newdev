@@ -2,7 +2,14 @@ import Footer from "@/components/footer"
 import ImageGallery from "@/components/image-gallery"
 
 export default function Home() {
-  const technologieImages = ["/MP4.jpg", "/MP3.jpg", "/kamenivo3.jpg", "/kamenivo4.jpg"]
+  const technologieImages = [
+    "/plot1.jpg",
+    "/plot2.jpg",
+    "/plot3.jpg",
+    "/plot4.jpg",
+    "/kamenivo3.jpg",
+    "/kamenivo4.jpg"
+  ]
 
   return (
     <div className="min-h-screen bg-background">

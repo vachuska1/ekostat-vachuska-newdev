@@ -11,7 +11,7 @@ const productData = {
     text3:
       "Naše modulové plotové systémy jsou vhodné pro rodinné domy, průmyslové areály, školní areály a další veřejné prostory. Zajišťují bezpečnost a soukromí, zároveň působí vzdušně a moderně.",
   },
-  images: ["/MP4.jpg", "/MP3.jpg"],
+  images: ["/plot1.jpg", "/plot2.jpg", "/plot3.jpg", "/plot4.jpg"],
 }
 
 export default function ModulovePlotyPage() {
