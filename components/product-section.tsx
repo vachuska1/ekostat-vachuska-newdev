@@ -18,6 +18,10 @@ interface ProductSectionProps {
     text6?: string
     nadpis7?: string
     text7?: string
+    nadpis8?: string
+    text8?: string
+    nadpis9?: string
+    text9?: string
   }
   images?: string[]
 }
@@ -56,6 +60,12 @@ const ProductSection = ({ id, title, content, images }: ProductSectionProps) => 
 
             {content.nadpis7 && <h4 className="text-xl font-semibold text-gray-800 mb-3">{content.nadpis7}</h4>}
             {content.text7 && <p className="content-text mb-6">{content.text7}</p>}
+
+            {content.nadpis8 && <h4 className="text-xl font-semibold text-gray-800 mb-3">{content.nadpis8}</h4>}
+            {content.text8 && <div className="content-text mb-6" dangerouslySetInnerHTML={{ __html: content.text8.replace(/\n/g, '<br />') }} />}
+
+            {content.nadpis9 && <h4 className="text-xl font-semibold text-gray-800 mb-3">{content.nadpis9}</h4>}
+            {content.text9 && <p className="content-text mb-6">{content.text9}</p>}
           </div>
 
           {images && images.length > 0 && <ImageGallery images={images} title={title} />}
