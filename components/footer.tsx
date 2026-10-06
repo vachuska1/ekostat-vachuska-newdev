@@ -55,6 +55,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-light mt-8 pt-8 text-center text-sm">
           <p>© 2025 EKOSTAT a.s. Všechna práva vyhrazena.</p>
+          <p className="mt-2">Web vytvořil <a href="https://weblepe.cz" rel="nofollow" className="hover:underline">Weblépe.cz</a></p>
         </div>
       </div>
     </footer>
