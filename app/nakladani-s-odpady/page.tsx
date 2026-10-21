@@ -11,21 +11,16 @@ export default function NakladaniSOdpadyPage() {
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 text-balance">Nakládání s odpady</h1>
             <div className="max-w-4xl mx-auto text-lg md:text-xl leading-relaxed space-y-6">
+              <h2 className="text-2xl md:text-3xl font-bold text-balance">Variabilní modulární rampy pro sběrné dvory</h2>
               <p>
-                Navrhujeme přímé řešení sběru a likvidace odpadů a navrhujeme materiálové řešení uplatnění všech
-                tříděných složek komunálního odpadů ve vztahu na budování lokální ekonomiky.
+                Společnost EKOSTAT a.s. se v oblasti nakládání s odpady specializuje na variabilní modulární rampy
+                pro sběrné dvory a specializované firmy zabývající se zpracováním odpadů. Naše konstrukční řešení
+                vychází z vlastního užitného vzoru a usnadňuje a zrychluje třídění i manipulaci s odpady.
               </p>
               <p>
-                Pro obce a města navrhujeme nejmodernější autonomní systémy nakládání s odpady. Nesoustředíme se pouze
-                na analýzy produkce odpadů, navrhujeme spádově vhodné sběrné nádoby, sběrná místa i samotné sběrné
-                dvory. Moderní způsob nakládání s odpady doplňujeme vzdělávacími a motivačními systémy tak, aby bylo
-                nakládání s odpady efektivní, co nejméně nákladné a spravedlivé pro všechny, kdo se ho účastní.
-              </p>
-              <p>
-                Naším cílem je motivovat občany a společnosti, aby mnohem více, a přitom přírozeným způsobem nakládali s
-                odpadem, měli povědomí o jeho skutečných nákladech. Města a obce se snažíme motivovat k tomu, aby se
-                snažily využívat svých možností a zájmu občanů a podnikatelských subjektů k podpoře snižování množství
-                odpadů a jeho přímého zpracování, v rámci podpory lokální ekonomiky.
+                Modulární provedení umožňuje přizpůsobit uspořádání ramp konkrétnímu prostoru a potřebám provozovatele.
+                Pomáháme tak zjednodušit každodenní provoz sběrných dvorů a usnadnit občanům i firmám odevzdávání
+                vytříděných odpadů.
               </p>
             </div>
           </div>

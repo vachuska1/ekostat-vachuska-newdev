@@ -5,7 +5,7 @@ const environmentData = {
   title: "Environment",
   content: {
     text1:
-      "Společnost EKOSTAT a.s. se zabývá využitím širokého okruhu odpadních materiálů. Největší pozornost věnujeme zpracování prašných anorganických odpadů, stavebních a demoličních odpadů a odpadních plastů.",
+      "Společnost EKOSTAT a.s. se zabývá využitím širokého okruhu odpadních materiálů. Největší pozornost věnujeme zpracování prašných anorganických odpadů, stavebních a demoličních odpadů.",
     text2:
       "Stavíme na moderních řešeních, která vedou v průmyslu výroby stavebních hmot a zpracování odpadů ke snižování nákladů a zároveň ke snižování spotřeby přírodních neobnovitelných zdrojů.",
     text3:
