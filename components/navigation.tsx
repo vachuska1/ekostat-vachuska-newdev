@@ -36,7 +36,7 @@ const Navigation = () => {
   ]
 
   return (
-    <nav className="bg-primary text-white sticky top-0 z-50 border-b border-white/10 shadow-sm">
+    <nav aria-label="Hlavní navigace" className="site-nav bg-primary text-white sticky top-0 z-50 border-b border-white/10 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 gap-6">
           <Link href="/" className="text-2xl font-bold tracking-tight whitespace-nowrap">

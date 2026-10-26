@@ -2,7 +2,7 @@ import { Phone, Mail } from "lucide-react"
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-white py-12">
+    <footer id="kontakt" className="site-footer bg-primary text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Korespondenční adresa */}
@@ -15,11 +15,11 @@ const Footer = () => {
               <p>341 01 Horažďovice</p>
               <div className="flex items-center space-x-2 mt-4">
                 <Phone className="w-4 h-4" />
-                <span>+420 602 305 209</span>
+                <a href="tel:+420602305209">+420 602 305 209</a>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
-                <span>vachuska@ekostat.cz</span>
+                <a href="mailto:vachuska@ekostat.cz">vachuska@ekostat.cz</a>
               </div>
             </div>
           </div>
@@ -43,11 +43,11 @@ const Footer = () => {
               <p>272 01 Kladno</p>
               <div className="flex items-center space-x-2 mt-4">
                 <Phone className="w-4 h-4" />
-                <span>+420 602 305 209</span>
+                <a href="tel:+420602305209">+420 602 305 209</a>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
-                <span>vachuska@ekostat.cz</span>
+                <a href="mailto:vachuska@ekostat.cz">vachuska@ekostat.cz</a>
               </div>
             </div>
           </div>
