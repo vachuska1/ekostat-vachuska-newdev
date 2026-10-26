@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Korespondenční adresa */}
-          <div>
+          <div className="text-left">
             <h3 className="text-xl font-semibold mb-4 border-b border-primary-light pb-2">
               Korespondenční adresa, kancelář a laboratoř
             </h3>
@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
 
           {/* Sídlo společnosti */}
-          <div>
+          <div className="text-left md:text-center">
             <h3 className="text-xl font-semibold mb-4 border-b border-primary-light pb-2">Sídlo společnosti</h3>
             <div className="space-y-2 text-sm">
               <p>Ekostat a.s.</p>
@@ -36,16 +36,16 @@ const Footer = () => {
           </div>
 
           {/* Výrobní závod */}
-          <div>
+          <div className="text-left md:text-right">
             <h3 className="text-xl font-semibold mb-4 border-b border-primary-light pb-2">Výrobní závod</h3>
             <div className="space-y-2 text-sm">
               <p>Dubská ulice, areál POLDI Kladno</p>
               <p>272 01 Kladno</p>
-              <div className="flex items-center space-x-2 mt-4">
+              <div className="flex items-center md:justify-end space-x-2 mt-4">
                 <Phone className="w-4 h-4" />
                 <a href="tel:+420602305209">+420 602 305 209</a>
               </div>
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center md:justify-end space-x-2">
                 <Mail className="w-4 h-4" />
                 <a href="mailto:vachuska@ekostat.cz">vachuska@ekostat.cz</a>
               </div>
